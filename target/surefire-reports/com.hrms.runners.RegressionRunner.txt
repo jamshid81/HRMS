@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.RegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.739 s <<< FAILURE! - in com.hrms.runners.RegressionRunner
+com.hrms.runners.RegressionRunner.initializationError  Time elapsed: 0.036 s  <<< ERROR!
+java.lang.IllegalArgumentException: The glue path contained invalid identifiers com/hrms.steps
+
