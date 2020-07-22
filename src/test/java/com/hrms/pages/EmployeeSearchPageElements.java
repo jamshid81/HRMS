@@ -26,6 +26,7 @@ public class EmployeeSearchPageElements extends CommonMethods {
 	@FindBy(xpath = "//a[text()='730462']")
 	public WebElement empIdDisplayed;
 	
+	
 	@FindBy(xpath = "//h1[text()='Personal Details']")
 	public WebElement PersonalInfo;
 

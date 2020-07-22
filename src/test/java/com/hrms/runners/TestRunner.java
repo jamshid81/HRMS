@@ -13,10 +13,14 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false, // if set to true it will quickly scan that all gherkin steps have
 						// implementation code
 						// if set to true no actual execution will happen
-		monochrome = true, strict = true, tags = "@reporting", plugin = { "pretty", // prints gherkin steps in console
+		monochrome = true,
+		strict = true,
+		tags = "@DBTest",
+		plugin = { "pretty", // prints gherkin steps in console
 				// "html:target/cucumber-default-report",//create basic html report in specified
 				// location
-				"json:target/cucumber.json", "rerun:target/failed.txt" })
+				"json:target/cucumber.json",
+				"rerun:target/failed.txt" })
 
 public class TestRunner {
 

@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.hrms.runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.828 sec <<< FAILURE!
-Login with invalid credentials(InvalidCredintial Login)  Time elapsed: 19.992 sec  <<< FAILURE!
-org.junit.ComparisonFailure: ErrorMessages mismatch expected:<Invalid [C]redentials> but was:<Invalid [c]redentials>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at com.hrms.steps.InvalidCredintialLogIn.i_enter_invalid_username_and_password_and_see_error_message(InvalidCredintialLogIn.java:24)
-	at ?.I enter invalid username and password and see error message(file:///C:/Users/jamsh/eclipse-workspace/Hrms/src/test/resources/features/inValidCreLogin.feature:6)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.499 s - in com.hrms.runners.TestRunner

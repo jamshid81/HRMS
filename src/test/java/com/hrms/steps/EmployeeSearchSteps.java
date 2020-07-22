@@ -28,7 +28,7 @@ public class EmployeeSearchSteps extends CommonMethods {
 
 	@When("user enters valid employee id")
 	public void user_enters_valid_employee_id() {
-		click(searchEmp.empList);
+//		click(searchEmp.empList);
 		sendText(searchEmp.searchById, "730462");
 
 	}
