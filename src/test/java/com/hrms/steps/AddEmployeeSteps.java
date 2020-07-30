@@ -54,7 +54,7 @@ public class AddEmployeeSteps extends CommonMethods {
 		click(addEmp.checkboxLoginDetails);
 	}
 
-//	@When("user enters login credentials")
+	@When("user enters login credentials")
 	public void user_enters_login_credentials() {
 		sendText(addEmp.username, "jawadghazyar1873");
 		sendText(addEmp.password, "Afghanistan0093$!");

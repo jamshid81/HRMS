@@ -33,9 +33,10 @@ public class LoginPageElements extends CommonMethods{
 		PageFactory.initElements(BaseClass.driver, this);
 	}
 
-	//if we would be keeping elements as private 
-	//then we will need to create public getters and setters 
-	//so we can access page elements from test classes
+	/**if we would be keeping elements as private 
+	*then we will need to create public getters and setters 
+	*so we can access page elements from test classes
+	*/
 	
 	//setter
 	public void sendUsername(String uid) {
